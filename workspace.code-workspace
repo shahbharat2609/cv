@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\java"
+		},
+		{
+			"path": "..\\Program Files\\Ampps\\www\\learn-php"
+		},
+		{
+			"path": "..\\c_c++"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web designing",
+		"files.associations": {
+			"TRAPEZ~1.C": "cpp",
+			"EULER.C": "cpp",
+			"regulafalsi.C": "cpp",
+			"NEW_FWD.C": "cpp",
+			"newfwd.C": "cpp",
+			"SECANT.C": "cpp",
+			"newtonraphson.C": "cpp",
+			"GAUSS_~1.C": "cpp",
+			"gelimination.C": "cpp",
+			"SIMPSON1.C": "cpp",
+			"1.C": "cpp",
+			"arraytraversal.C": "cpp",
+			"2.C": "cpp",
+			"10.C": "cpp",
+			"11.C": "cpp",
+			"12.C": "cpp",
+			"STACKLL.C": "cpp",
+			"9.C": "cpp"
+		}
+	}
+}

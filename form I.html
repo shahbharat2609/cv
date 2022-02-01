@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Form tags
+        </title>
+    </head>
+ <body>
+    <form action="" method="">
+        <fieldset>
+        <legend>Enter your personal details</legend><br>
+        <label>Name</label> <input type="text" name="fname" value="" placeholder="enter your name"/><br/><br/>
+
+        <label>Password</label> <input type="password" name="" placeholder="enter your password"/><br><br>
+
+        <label>Gender</label> <input type="radio" name="gender" id="male"/><label for="male">Male</label><input type="radio" name="gender" id="female"><label for="female">Female</label><br><br>
+
+        <label>Hobbies</label> <input type="checkbox" name="hobby" id="music"/><label for="music">Music</label>
+        
+        <input type="checkbox" name="hobby" id="football"/><label for="football">Football</label>
+        
+        <input type="checkbox" name="hobby" id="gaming"/><label for="gaming">Gaming</label>
+        
+        <input type="checkbox" name="hobby" id="cycling"/><label for="cycling">Cycling</label><br><br>
+        
+        <label>Message</label><textarea rows="20" cols="50">Bharat Shah</textarea><br><br>
+
+        <label>Country</label><select name="" size="2" multiple>
+                                <option  value="in">India</option>
+                                <option  value="np">Nepal</option>
+                                <option  value="bg">Bangladesh</option>
+                                <option  value="ch" selected>China</option> 
+                              </select><br><br>
+
+        <label>Cars</label><select >
+                            <optgroup  label="Honda"  >  
+                                <option >Jazz</option>
+                                <option >City</option>
+                                <option >Civic</option>
+                                <option >CRV</option>
+                            </optgroup>    
+                            <optgroup  label="Ford"  >
+                                <option >Figo</option>
+                                <option >Ecosport</option>
+                                <option >Endeavour</option>
+                                <option >Mustang</option>   
+                            </optgroup>       
+                           </select><br><br>
+        <label>Cars</label><input list="cars">
+                           <datalist id="cars">
+                               <option value= "Innova">
+                               <option value= "Duster ">
+                               <option value= "Swift">
+                               <option value= "Baleno">
+                               <option value= "Ecosport"></option>
+                            </datalist>  
+        <label>Upload File</label><input type="file" accept="image/*" name="" /><br><br>
+        
+        <input type="submit" value="Save"><br><br>
+        <input type="reset"  value="Click here to reset">
+        <input type="image"  src="images/mountains.jpg" width="20px" height="20px" alt="submit button"/>
+    </fieldset>
+    </form>
+ </body>
+</html>
